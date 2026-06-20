@@ -1,6 +1,6 @@
 # AI Usage Disclosure (AID)
 
-[![AI Usage: collaborative](https://img.shields.io/badge/AI_Usage-generated-7e57c2)](./ai-usage.yml)
+[![AI Usage: collaborative](https://img.shields.io/badge/AI_Usage-collaborative-5b8def)](./ai-usage.yml)
 
 AI Usage Disclosure is a small, vendor-neutral manifest for software projects to
 disclose how AI was used during development. It is intended to be a transparency
@@ -17,7 +17,7 @@ label, not a quality score or detector.
 
 ```yaml
 version: "0.1"
-overall: collaborative
+overall: generated
 areas:
   code:
     level: collaborative

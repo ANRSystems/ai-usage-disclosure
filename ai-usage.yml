@@ -1,7 +1,7 @@
 # SPDX-License-Identifier: Apache-2.0
 # AI Usage Disclosure — https://github.com/ANRSystems/ai-usage-disclosure
 version: "0.1"
-overall: generated
+overall: collaborative
 
 areas:
   code:
@@ -11,7 +11,7 @@ areas:
     level: assisted
     reviewed: true
   documentation:
-    level: generated
+    level: collaborative
     reviewed: false
   design:
     level: assisted
@@ -19,16 +19,18 @@ areas:
   assets: none
   data: none
 
-# DERIVED: true here because `documentation` is AI-involved but is also reviewed.
-human_reviewed: true
+# DERIVED: false — `documentation` is AI-involved (collaborative) but not yet
+# formally reviewed, so the project-wide summary cannot claim full review.
+human_reviewed: false
 
 tools:
   - "Claude (Anthropic)"
   - "GitHub Copilot"
 
 disclosed_by: "ANR Systems"
-updated: "2026-06-16"
+updated: "2026-06-20"
 notes: >
   This repository defines the AI Usage Disclosure manifest and includes a draft
-  generator. AI was used for drafting, editing, and implementation assistance.
-  Maintainers are responsible for final review before release.
+  generator. AI drafted the code and docs; a human reviewed, edited, and
+  integrated the code, tests, and design. Documentation was human-edited but
+  not yet formally reviewed.
