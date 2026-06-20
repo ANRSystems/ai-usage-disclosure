@@ -1,6 +1,6 @@
 # AI Usage Disclosure (AID)
 
-[![AI Usage: generated](https://img.shields.io/badge/AI_Usage-generated-7e57c2)](./ai-usage.yml)
+[![AI Usage: collaborative](https://img.shields.io/badge/AI_Usage-generated-7e57c2)](./ai-usage.yml)
 
 AI Usage Disclosure is a small, vendor-neutral manifest for software projects to
 disclose how AI was used during development. It is intended to be a transparency
