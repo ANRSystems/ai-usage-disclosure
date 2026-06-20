@@ -19,8 +19,8 @@ areas:
   assets: none
   data: none
 
-# DERIVED: false here because `documentation` is AI-involved but unreviewed.
-human_reviewed: false
+# DERIVED: true here because `documentation` is AI-involved but is also reviewed.
+human_reviewed: true
 
 tools:
   - "Claude (Anthropic)"
